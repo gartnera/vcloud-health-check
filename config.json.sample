@@ -1,0 +1,18 @@
+{
+    "url": "https://myvcloud.example.com",
+    "user": "admin",
+    "org": "my_org",
+    "vdc": "my_vdc",
+    "password": "password",
+    "vapp": "my_vpp",
+    "services": [
+        {
+            "name": "my_name",
+            "vm": "my_vm",
+            "ip": "127.0.0.1",
+            "port": 22,
+            "check": "ssh",
+            "username": "ctf"
+        }
+    ]
+}
